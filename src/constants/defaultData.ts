@@ -63,89 +63,99 @@ export const DEFAULT_TIMELINE: TimelineCard[] = [
   {
     id: 'year1',
     yearTitle: 'Ano 1 • O Nosso Início & Nosso Casamento',
-    caption: 'O momento mais lindo: o nosso "SIM" no altar perante Deus e os primeiros passos construindo o nosso lar com muito amor, companheirismo e cumplicidade.',
+    caption:
+      'O momento mais lindo: o nosso "SIM" no altar perante Deus e os primeiros passos construindo o nosso lar com muito amor, companheirismo e cumplicidade.',
     photos: [
       {
         id: 'p1_1',
-        url: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80',
-        title: 'Bênção e o início de tudo (Igreja)',
+        url: '/photos/foto1.jpg',
+        title: 'Bênção e o início de tudo',
       },
       {
         id: 'p1_2',
-        url: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80',
-        title: 'Nosso Casamento: O beijo no altar (25/09/2021)',
+        url: '/photos/foto2.jpg',
+        title: 'Nosso Casamento: O beijo no altar',
       },
     ],
   },
+
   {
     id: 'year2',
     yearTitle: 'Ano 2 • Viagens & Sorrisos',
-    caption: 'Viajamos muito, hehe! Criamos memórias inesquecíveis, passeios a dois e a certeza de que a cada viagem nosso amor só se fortalecia.',
+    caption:
+      'Viajamos muito, hehe! Criamos memórias inesquecíveis, passeios a dois e a certeza de que a cada viagem nosso amor só se fortalecia.',
     photos: [
       {
         id: 'p2_1',
-        url: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1000&q=80',
-        title: 'Noite romântica sob as luzes',
+        url: '/photos/foto3.jpg',
+        title: 'Nossos momentos e nossas viagens',
       },
       {
         id: 'p2_2',
-        url: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1000&q=80',
-        title: 'Dias ensolarados e mergulho no mar',
+        url: '/photos/foto4.jpg',
+        title: 'Dias felizes e aventuras juntos',
       },
     ],
   },
+
   {
     id: 'year3',
     yearTitle: 'Ano 3 • O Nosso Amor que Amadurece',
-    caption: 'Amadurecemos como casal, comemorando cada conquista, rindo juntos e enfrentando qualquer desafio de mãos dadas.',
+    caption:
+      'Amadurecemos como casal, comemorando cada conquista, rindo juntos e enfrentando qualquer desafio de mãos dadas.',
     photos: [
       {
         id: 'p3_1',
-        url: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1000&q=80',
-        title: 'Celebrando o aniversário com bolo e vela',
+        url: '/photos/foto5.jpg',
+        title: 'Mais um capítulo da nossa história',
       },
       {
         id: 'p3_2',
-        url: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1000&q=80',
-        title: 'Passeio a dois sob as sombrinhas iluminadas',
+        url: '/photos/foto6.jpg',
+        title: 'Momentos que ficaram para sempre',
       },
     ],
   },
+
   {
     id: 'year4',
     yearTitle: 'Ano 4 • A Chegada da Nossa Mari (Luz)',
-    caption: 'A chegada da Mari mudou nossas vidas para sempre. Enfrentamos momentos difíceis no hospital, você se mostrou uma mãe gigante e nossa filha trouxe um amor infinito.',
+    caption:
+      'A chegada da Mari mudou nossas vidas para sempre. Enfrentamos momentos difíceis no hospital, você se mostrou uma mãe gigante e nossa filha trouxe um amor infinito.',
     photos: [
       {
         id: 'p4_1',
-        url: 'https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=1000&q=80',
-        title: 'A Mari veio para ser LUZ (Nascimento)',
+        url: '/photos/foto7.jpg',
+        title: 'A Mari veio para ser LUZ',
       },
       {
         id: 'p4_2',
-        url: 'https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?auto=format&fit=crop&w=1000&q=80',
+        url: '/photos/foto8.jpg',
         title: 'O sorriso mais puro e encantador do mundo',
       },
     ],
   },
+
   {
     id: 'year5',
     yearTitle: 'Ano 5 • Bodas de Madeira: Família Completa',
-    caption: 'Completamos 5 anos de casados! Nossas raízes sólidas e profundas. Orgulho gigantesco da enfermeira fantástica, mãe guerreira e mulher espetacular que você é.',
+    caption:
+      'Completamos 5 anos de casados! Nossas raízes sólidas e profundas. Orgulho gigantesco da enfermeira fantástica, mãe guerreira e mulher espetacular que você é.',
     photos: [
       {
         id: 'p5_1',
-        url: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=1000&q=80',
-        title: 'Momentos felizes e passeios em família',
+        url: '/photos/foto9.jpg',
+        title: 'Momentos felizes em família',
       },
       {
         id: 'p5_2',
-        url: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80',
-        title: 'Pedro, Duda & Mari: Nossa família, nosso amor eterno',
+        url: '/photos/foto10.jpg',
+        title: 'Nossa família, nosso amor eterno',
       },
     ],
   },
 ];
 
-// Reference date: 5 years of marriage (25/09/2021)
+// Data do casamento
+// 25/09/2021 às 10:30
 export const DEFAULT_WEDDING_DATE = '2021-09-25T10:30:00';
