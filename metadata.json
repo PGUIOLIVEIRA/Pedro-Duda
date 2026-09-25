@@ -1,0 +1,8 @@
+{
+  "name": "Remix Pedro \u0026 Duda • Bodas de Madeira",
+  "description": "Homenagem comemorativa de 5 Anos de Casados (Bodas de Madeira) de Pedro \u0026 Duda: carta de amor, linha do tempo com fotos, contador e modo apresentação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
